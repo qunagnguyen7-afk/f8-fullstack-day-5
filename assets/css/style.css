@@ -117,3 +117,70 @@ li p {
 
     font-weight: bolder;
 }
+
+/* CSS MENU  */
+.main-menu {
+    margin: auto;
+    max-width: 149rem;
+    min-height: 85rem;
+    background-image: url(https://i.pinimg.com/originals/db/ef/7e/dbef7e5e9f5d11db75f4fee9e9ea8dee.jpg);
+
+
+
+}
+
+.hearder-menu {
+    background-color: rgb(144, 144, 148);
+    height: 80px;
+}
+
+.nav {
+    list-style-type: none;
+}
+.nav li {
+    position: relative;
+    display: inline-block;
+    padding: 0 40px;
+
+
+}
+.nav>li>a {
+    color: #fff;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 35px;
+    display: block;
+    line-height: 80px;
+}
+
+.nav .sub-nav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) ;
+} 
+
+.nav .sub-nav a {
+    width: 380px;
+    color: black;
+    margin-left: -45px;
+
+
+
+}
+.nav .sub-nav a:hover {
+    background-color: #9d9898;
+    color: #fff;
+} 
+
+.nav li a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.nav li:hover .sub-nav {
+    display: block;
+}
