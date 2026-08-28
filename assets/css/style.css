@@ -121,8 +121,8 @@ li p {
 /* CSS MENU  */
 .main-menu {
     margin: auto;
-    max-width: 149rem;
-    min-height: 85rem;
+    max-width: 70rem;
+    min-height: 600px;
     background-image: url(https://i.pinimg.com/originals/db/ef/7e/dbef7e5e9f5d11db75f4fee9e9ea8dee.jpg);
 
 
@@ -131,7 +131,9 @@ li p {
 
 .hearder-menu {
     background-color: rgb(144, 144, 148);
-    height: 80px;
+    height: 35px;
+    display: inline-block;
+    width: 100%;
 }
 
 .nav {
@@ -140,7 +142,7 @@ li p {
 .nav li {
     position: relative;
     display: inline-block;
-    padding: 0 40px;
+    padding: 0 10px;
 
 
 }
@@ -151,9 +153,9 @@ li p {
 
 .nav li a {
     text-decoration: none;
-    font-size: 35px;
+    font-size: 20px;
     display: block;
-    line-height: 80px;
+    line-height: 35px;
 }
 
 .nav .sub-nav {
@@ -166,7 +168,7 @@ li p {
 .nav .sub-nav a {
     width: 380px;
     color: black;
-    margin-left: -45px;
+    margin-left: -20px;
 
 
 
